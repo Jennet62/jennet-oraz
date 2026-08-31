@@ -197,6 +197,17 @@ const EDUCATION = [
   },
 ];
 
+function FloatingAccents() {
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+      <div className="absolute top-8 right-8 h-12 w-12 rounded-full bg-amber-200/40 blur-sm float-slow" />
+      <div className="absolute bottom-16 right-32 h-8 w-8 rotate-12 rounded-lg bg-sky-200/40 blur-[2px] float-slow-delayed" />
+      <div className="absolute top-1/2 right-6 h-6 w-6 rounded-full border-2 border-stone-200/60 float-slow" />
+      <div className="absolute top-24 right-48 h-4 w-4 rounded-full bg-rose-200/50 float-slow-delayed" />
+    </div>
+  );
+}
+
 function Sidebar() {
   return (
     <aside className="bg-gradient-ink text-sidebar-foreground lg:fixed lg:inset-y-0 lg:left-0 lg:w-80 lg:overflow-y-auto">
@@ -285,17 +296,21 @@ function Portfolio() {
       <main className="mx-auto max-w-4xl px-6 py-14 lg:ml-80 lg:max-w-none lg:px-16">
         <div className="mx-auto max-w-3xl">
           <Section id="about" eyebrow="Introduction" title="Turning business needs into Salesforce solutions">
-            <p className="text-lg leading-relaxed text-muted-foreground">
-              Salesforce Certified Administrator and Business Analyst with 5+ years administering, configuring, and
-              improving Salesforce solutions. I work across requirements gathering, business process analysis,
-              automation, data management, integrations, UAT, and Agile delivery — with a growing specialization in
-              Agentforce and AI-enabled business solutions.
+            <FloatingAccents />
+            <span className="relative z-10 inline-flex items-center rounded-full border border-amber-100 bg-amber-50 px-3 py-1 text-xs font-semibold tracking-wide text-amber-700">
+              Open to BA / Admin / Consultant roles
+            </span>
+            <p className="relative z-10 mt-5 text-lg leading-relaxed text-muted-foreground">
+              Hi — I'm Jennet, a Salesforce Certified Administrator and Business Analyst with 5+ years helping teams
+              turn complex requirements into clean, adoptable Salesforce solutions. I sit at the intersection of
+              business needs and platform capability, translating stakeholder goals into workflows, reports, and
+              automations that actually get used.
             </p>
-            <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              As an Agentblazer Innovator, I build and explore Salesforce AI Agents and AI workflows, partnering with
-              business and technical stakeholders to translate needs into scalable, adoptable solutions.
+            <p className="relative z-10 mt-4 text-lg leading-relaxed text-muted-foreground">
+              As an Agentblazer Innovator, I love exploring how Agentforce and AI-enabled tools can make teams more
+              productive — always with a people-first approach to adoption and change.
             </p>
-            <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            <dl className="relative z-10 mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
               {[
                 ["5+", "Years in Salesforce"],
                 ["3", "Certifications"],
