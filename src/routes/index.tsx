@@ -101,7 +101,7 @@ const EXPERIENCE = [
   {
     role: "Salesforce Consultant / Business Analyst",
     company: "MTX Group",
-    period: "09/2023 — 02/2026",
+    period: "09/2023 — 03/2026",
     bullets: [
       "Translated business needs into Salesforce solutions across public health, education, and electoral-sector programs, improving processes and user experience.",
       "Created and managed user stories and enhancement requests in Jira; maintained project documentation in Confluence.",
@@ -141,7 +141,7 @@ const PROJECTS = [
     client: "Washington State — WA HELMS",
     name: "Health & Eligibility Licensing Management",
     role: "Consultant — MTX Group",
-    period: "MTX Group",
+    period: "Dec 2024 — Mar 2026",
     summary:
       "Delivered Salesforce configuration and solution support for a state licensing and management program, aligning platform capabilities with regulatory and operational requirements.",
     tags: ["Public Sector", "Service Cloud", "Flows", "UAT"],
@@ -150,7 +150,7 @@ const PROJECTS = [
     client: "Montana DPHHS — MAQCS",
     name: "Public Health Quality & Compliance System",
     role: "Consultant — MTX Group",
-    period: "Oct 2024 — Present",
+    period: "Oct 2024 — Dec 2024",
     summary:
       "Crafted and customized Salesforce solutions aligned with public health objectives, using Apex, Visualforce, and Lightning Components per SLDS standards. Designed structured, accessible data models and leveraged SOQL/SOSL for optimal data access, with deployment, version control, and CI supporting system integrity.",
     tags: ["Apex", "LWC", "Data Modeling", "CI/CD"],
