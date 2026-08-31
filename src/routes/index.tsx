@@ -61,11 +61,11 @@ const SKILLS = [
     ],
   },
   {
-    title: "Development & Integration",
+    title: "Solution Design & Integration",
     items: [
-      "Apex, LWC / Aura, Visualforce",
-      "SOQL, SOSL, data modeling",
-      "REST & SOAP API integrations",
+      "Requirements-driven solution design",
+      "API & system integration scoping",
+      "Data modeling & quality planning",
       "SFDX, Bitbucket, GitHub, Flosum",
     ],
   },
@@ -107,13 +107,14 @@ const EXPERIENCE = [
       "Created and managed user stories and enhancement requests in Jira; maintained project documentation in Confluence.",
       "Worked in Agile/Scrum: requirements discussions, sprint planning, backlog refinement, and reviews.",
       "Administered and customized Sales and Service Cloud, including security, sharing rules, and data management.",
-      "Developed with Apex, Lightning Components (LWC/Aura), Visualforce, SOQL, and SOSL; supported data model design and data quality.",
+      "Translated requirements into scalable solutions using Flows, validation rules, reports, and data-model improvements.",
+      "Partnered with developers on Apex, LWC, and integration work while owning requirements, UAT, and release readiness.",
       "Managed deployments, version control, and releases with Bitbucket and GitHub.",
     ],
     awards: ['MTX "Above and Beyond" Award — July 2025', 'MTX "Team Excellence" Award — August 2025'],
   },
   {
-    role: "Salesforce Administrator / Developer",
+    role: "Salesforce Administrator / Consultant",
     company: "Zillow Group",
     period: "06/2021 — 08/2023",
     bullets: [
@@ -122,7 +123,7 @@ const EXPERIENCE = [
       "Gathered requirements from internal teams and turned them into Salesforce solutions and process improvements.",
       "Built Flows, approval processes, email automations, validation rules, and workflow enhancements.",
       "Supported integrations and data synchronization with external systems via REST and SOAP APIs.",
-      "Contributed custom enhancements with Apex, LWC, Aura, and Visualforce following platform best practices.",
+      "Partnered with development teams on custom enhancements while focusing on configuration and user adoption.",
     ],
   },
 ];
@@ -167,7 +168,7 @@ const PROJECTS = [
   {
     client: "New York State Board of Elections",
     name: "Public Matching Funds Program",
-    role: "Senior Salesforce Developer — MTX Group",
+    role: "Senior Salesforce Consultant — MTX Group",
     period: "Sep 2023 — Mar 2024",
     summary:
       "Designed and implemented custom Salesforce solutions for public funding and compliance across election cycles. Built Lightning Components to SLDS standards, focused on robust data model design, and handled version control and CI with Bitbucket.",
