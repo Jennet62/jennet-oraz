@@ -296,17 +296,21 @@ function Portfolio() {
       <main className="mx-auto max-w-4xl px-6 py-14 lg:ml-80 lg:max-w-none lg:px-16">
         <div className="mx-auto max-w-3xl">
           <Section id="about" eyebrow="Introduction" title="Turning business needs into Salesforce solutions">
-            <p className="text-lg leading-relaxed text-muted-foreground">
-              Salesforce Certified Administrator and Business Analyst with 5+ years administering, configuring, and
-              improving Salesforce solutions. I work across requirements gathering, business process analysis,
-              automation, data management, integrations, UAT, and Agile delivery — with a growing specialization in
-              Agentforce and AI-enabled business solutions.
+            <FloatingAccents />
+            <span className="relative z-10 inline-flex items-center rounded-full border border-amber-100 bg-amber-50 px-3 py-1 text-xs font-semibold tracking-wide text-amber-700">
+              Open to BA / Admin / Consultant roles
+            </span>
+            <p className="relative z-10 mt-5 text-lg leading-relaxed text-muted-foreground">
+              Hi — I'm Jennet, a Salesforce Certified Administrator and Business Analyst with 5+ years helping teams
+              turn complex requirements into clean, adoptable Salesforce solutions. I sit at the intersection of
+              business needs and platform capability, translating stakeholder goals into workflows, reports, and
+              automations that actually get used.
             </p>
-            <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              As an Agentblazer Innovator, I build and explore Salesforce AI Agents and AI workflows, partnering with
-              business and technical stakeholders to translate needs into scalable, adoptable solutions.
+            <p className="relative z-10 mt-4 text-lg leading-relaxed text-muted-foreground">
+              As an Agentblazer Innovator, I love exploring how Agentforce and AI-enabled tools can make teams more
+              productive — always with a people-first approach to adoption and change.
             </p>
-            <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            <dl className="relative z-10 mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
               {[
                 ["5+", "Years in Salesforce"],
                 ["3", "Certifications"],
