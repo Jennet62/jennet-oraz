@@ -197,6 +197,17 @@ const EDUCATION = [
   },
 ];
 
+function FloatingAccents() {
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+      <div className="absolute top-8 right-8 h-12 w-12 rounded-full bg-amber-200/40 blur-sm float-slow" />
+      <div className="absolute bottom-16 right-32 h-8 w-8 rotate-12 rounded-lg bg-sky-200/40 blur-[2px] float-slow-delayed" />
+      <div className="absolute top-1/2 right-6 h-6 w-6 rounded-full border-2 border-stone-200/60 float-slow" />
+      <div className="absolute top-24 right-48 h-4 w-4 rounded-full bg-rose-200/50 float-slow-delayed" />
+    </div>
+  );
+}
+
 function Sidebar() {
   return (
     <aside className="bg-gradient-ink text-sidebar-foreground lg:fixed lg:inset-y-0 lg:left-0 lg:w-80 lg:overflow-y-auto">
