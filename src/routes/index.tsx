@@ -149,15 +149,15 @@ function Sidebar() {
           <span className="text-xs uppercase tracking-[0.16em] text-sidebar-foreground/75">Portfolio · 2026</span>
         </a>
 
-        <h1 className="mt-12 font-display text-[clamp(4.5rem,8vw,8rem)] leading-[0.78] uppercase">
+        <h1 className="sidebar-title mt-10 font-display text-[clamp(4rem,6.5vw,6.75rem)] leading-[0.88] uppercase">
           Jennet<br />Oraz
         </h1>
-        <p className="mt-7 max-w-xs text-lg leading-snug text-sidebar-foreground/90">
+        <p className="sidebar-intro mt-6 max-w-xs text-lg leading-snug text-sidebar-foreground/90">
           Salesforce Consultant<br />Business Analyst<br />Certified Administrator
         </p>
 
-        <nav className="mt-12 hidden lg:block" aria-label="Portfolio sections">
-          <ul className="space-y-3">
+        <nav className="sidebar-nav mt-9 hidden lg:block" aria-label="Portfolio sections">
+          <ul className="grid gap-2.5">
             {NAV.map(([id, label], index) => (
               <li key={id}>
                 <a className="group flex items-center gap-4 text-sm uppercase tracking-[0.12em] text-sidebar-foreground/65 transition-colors hover:text-sidebar-foreground" href={`#${id}`}>
@@ -171,7 +171,7 @@ function Sidebar() {
         </nav>
       </div>
 
-      <div className="mt-16 border-t border-sidebar-foreground/25 pt-6">
+      <div className="sidebar-contact mt-10 border-t border-sidebar-foreground/25 pt-5">
         <p className="text-xs uppercase tracking-[0.15em] text-sidebar-foreground/60">Based in</p>
         <p className="mt-2 flex items-center gap-2 text-sm"><MapPin className="h-4 w-4" aria-hidden /> Aventura, Florida</p>
         <a href="mailto:jennet62@gmail.com" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold underline-offset-4 hover:underline">
