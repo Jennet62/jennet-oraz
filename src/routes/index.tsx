@@ -174,8 +174,8 @@ function Sidebar() {
       <div className="sidebar-contact mt-10 border-t border-sidebar-foreground/25 pt-5">
         <p className="text-xs uppercase tracking-[0.15em] text-sidebar-foreground/60">Based in</p>
         <p className="mt-2 flex items-center gap-2 text-sm"><MapPin className="h-4 w-4" aria-hidden /> Aventura, Florida</p>
-        <a href="mailto:jennet62@gmail.com" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold underline-offset-4 hover:underline">
-          Let&apos;s connect <ArrowUpRight className="h-4 w-4" aria-hidden />
+        <a href="https://linkedin.com/in/jennet-oraz" target="_blank" rel="noreferrer" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold underline-offset-4 hover:underline">
+          Connect on LinkedIn <ArrowUpRight className="h-4 w-4" aria-hidden />
         </a>
       </div>
     </aside>
