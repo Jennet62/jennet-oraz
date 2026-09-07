@@ -149,7 +149,7 @@ function Sidebar() {
           <span className="text-xs uppercase tracking-[0.16em] text-sidebar-foreground/75">Portfolio · 2026</span>
         </a>
 
-        <h1 className="sidebar-title mt-10 font-display text-[clamp(4rem,6.5vw,6.75rem)] leading-[0.88] uppercase">
+        <h1 className="sidebar-title mt-10 font-display text-[clamp(3.5rem,5.8vw,5.75rem)] leading-[0.9] uppercase">
           Jennet<br />Oraz
         </h1>
         <p className="sidebar-intro mt-6 max-w-xs text-lg leading-snug text-sidebar-foreground/90">
@@ -186,7 +186,7 @@ function SectionHeading({ number, label, title }: { number: string; label: strin
   return (
     <header className="mb-10 border-b border-border pb-5">
       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent">{number} · {label}</p>
-      <h2 className="mt-3 font-display text-5xl uppercase leading-none text-foreground sm:text-6xl">{title}</h2>
+      <h2 className="mt-3 font-display text-4xl uppercase leading-none text-foreground sm:text-5xl">{title}</h2>
     </header>
   );
 }
@@ -256,7 +256,7 @@ function Portfolio() {
                   <p className="mt-2 text-xs font-semibold uppercase tracking-[0.1em] text-muted-foreground">{job.period}</p>
                 </div>
                 <div>
-                  <h3 className="font-display text-4xl uppercase text-foreground sm:text-5xl">{job.company}</h3>
+                  <h3 className="font-display text-3xl uppercase text-foreground sm:text-4xl">{job.company}</h3>
                   <p className="mt-1 text-sm font-semibold uppercase tracking-[0.1em] text-accent">{job.role}</p>
                   <p className="mt-5 max-w-2xl text-lg leading-relaxed text-foreground">{job.intro}</p>
                   <ul className="mt-6 grid gap-3 text-sm leading-relaxed text-muted-foreground">
@@ -280,7 +280,7 @@ function Portfolio() {
                 </div>
                 <div className="mt-16">
                   <p className="text-xs font-semibold uppercase tracking-[0.12em] text-highlight">{project.client}</p>
-                  <h3 className="mt-2 font-display text-4xl uppercase leading-none sm:text-5xl">{project.title}</h3>
+                  <h3 className="mt-2 font-display text-3xl uppercase leading-none sm:text-4xl">{project.title}</h3>
                   <p className="mt-5 max-w-xl leading-relaxed text-background/70 group-hover:text-background/90">{project.copy}</p>
                   <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs uppercase tracking-[0.08em] text-background/55">{project.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
                 </div>
@@ -316,7 +316,7 @@ function Portfolio() {
 
         <footer id="contact" className="page-section bg-highlight text-highlight-foreground">
           <p className="text-xs font-semibold uppercase tracking-[0.16em]">05 · Contact</p>
-          <h2 className="mt-5 max-w-3xl font-display text-[clamp(4rem,9vw,8rem)] uppercase leading-[0.88]">Let&apos;s make Salesforce work better.</h2>
+          <h2 className="mt-5 max-w-3xl font-display text-[clamp(3.5rem,8vw,6.5rem)] uppercase leading-[0.9]">Let&apos;s make Salesforce work better.</h2>
           <div className="mt-12 flex flex-col gap-4 border-t border-highlight-foreground/25 pt-8 sm:flex-row sm:flex-wrap sm:gap-8">
             <a href="mailto:jennet62@gmail.com" className="inline-flex items-center gap-2 font-semibold hover:underline"><Mail className="h-4 w-4" aria-hidden /> jennet62@gmail.com</a>
             <a href="tel:+13058169757" className="inline-flex items-center gap-2 font-semibold hover:underline"><Phone className="h-4 w-4" aria-hidden /> (305) 816-9757</a>
